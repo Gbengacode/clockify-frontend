@@ -21,7 +21,7 @@ Clockify Assignment
 
 
 ## Demo
-- [live demo] (https://clockify-me.netlify.app/)
+- [live demo](https://clockify-me.netlify.app/)
 ## Getting Started
 
 
