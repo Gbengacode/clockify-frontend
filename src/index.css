@@ -1,27 +1,69 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* reset css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+:root {
+  --gray: #666;
+  --red: #f44336;
+  --deep-purple: #673ab7;
+  --blue: #03a9f4;
+  --cyan: #03a9f4;
+  --teal: #009688;
+  --green: #4caf50;
+  --light-green: #8bc34a;
+  --amber: #ffc107;
+  --orange: #ff9800;
+  --deep-orange: #ff5722;
+  --brown: #795548;
+  --blue-gray-1: #f2f6f8;
+  --blue-gray-2: #e4eaee;
+  --blue-gray-3: #c6d2d9;
+  --blue-gray-4: #90a4ae;
+  --blue-gray-5: #78909c;
+  --blue-gray-6: #607d8b;
+  --blue-gray-7: #546e7a;
+  --blue-gray-8: #455a64;
+  --blue-gray-9: #37474f;
+  --blue-gray-10: #263238;
+  --blue-gray-11: #1d272c;
+  --blue-gray-12: #12191d;
+  --yellow: #fbc02d;
+  --white: #fff;
+  --gray-dark: #343a40;
+  --blue-gray: #607d8b;
+  --primary: #03a9f4;
+  --secondary: #4caf50;
+  --success: #4caf50;
+  --info: #03a9f4;
+  --warning: #ff9800;
+  --danger: #f44336;
+  --light: #e4eaee;
+  --lighter: #f2f6f8;
+  --dark: #333;
+  --purple: #9c27b0;
+  --indigo: #3f51b5;
+  --pink: #e91e63;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-lg-custom: 1366px;
+  --breakpoint-xl-custom: 1600px;
+  --font-family-sans-serif: "Roboto", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--blue-gray-2);
 }
